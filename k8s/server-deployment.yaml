@@ -15,7 +15,7 @@ spec:
       containers:
         - name: server
           # image: cygnetops/multi-server-pgfix-5-11
-          image: stephengrider/multi-server
+          image: deejaygeroso/multi-server
           ports:
             - containerPort: 5000
           env:
